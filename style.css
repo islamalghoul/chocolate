@@ -1,0 +1,110 @@
+
+body {
+    width: 800px;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+  }
+header{
+
+    display: flex;
+
+}
+nav{
+    position: absolute;
+    display: inline-block;
+
+ margin-left: 35em;
+ 
+}
+ul{
+
+    display: flex;
+    list-style: none;
+    
+}
+li{
+
+    text-decoration: none;
+}
+.delicious{
+    font-style: italic;
+    position:relative;
+    margin-top: -0.2em;
+   padding: 10px;
+ 
+
+}
+.head{
+
+    display: flex;
+    padding: 10px;
+}
+hr{
+   height: 10px;
+   background-color: black;
+   
+  
+}
+p{
+    color: gray;
+
+}
+.choco{
+
+    width: 800px    ;
+}
+.list{
+
+    width: 800px;
+   
+}
+.row{
+    
+    background-image: url("./assets/list-bg.png");
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.section{
+
+    display: flex;
+    gap: 380px  ; 
+    padding: 30px;
+color:  rgb(118, 80, 30);
+    
+}
+.pre-footer{
+    display: flex;
+    margin-bottom:50px ;
+    width: 800px;
+}   
+.img{
+
+    width: 50px;
+    height: 50px;
+}
+.button{
+    height: 50px;
+    width: 170px;
+   background-color:rgb(225, 96, 49);
+   color: white;
+   padding-right: 50px;
+   text-align: center;
+   justify-content: center;
+   gap: 20px;
+   justify-items: center;
+   align-items: center;
+   border: none;
+  
+}
+    
+.text{
+margin-left:10px ;
+position: relative;
+padding-top: -100px  ; 
+
+}
+footer{
+   
+    text-align: center;
+}
